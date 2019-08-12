@@ -1,1 +1,76 @@
-/* pages/src/bird-products/bird-products.wxss */
+page {
+    background-color: #f6f6f6;
+}
+
+.line {
+    height: 1rpx;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+.selection {
+    /* border-bottom: 3px solid #ddd; */
+}
+
+.selection:last-child {
+    border: none;
+}
+
+.selection swiper {
+    height: 100%;
+}
+
+.selection swiper .swiper-img {
+    width: 100%;
+    height: auto;
+}
+
+.bird {
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 20rpx 30rpx;
+}
+
+.bird-title {
+    margin: 30rpx 0;
+}
+
+.bird-box {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30rpx;
+    /* display: flex; *//* justify-content: space-between; */
+}
+
+.bird-cont {
+    /* display: flex; *//* flex-direction: column; */
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 20rpx;
+    padding: 20rpx;
+    box-sizing: border-box;
+}
+
+.bird-img {
+    width: 250rpx;
+    height: 100%;
+}
+
+.bird-txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.bird-txt text {
+    font-size: 26rpx;
+    color: #666;
+    line-height: 2;
+}
+
+.bird-txt text:last-child {
+    /* width: 120rpx; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

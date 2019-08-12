@@ -1,3 +1,24 @@
-<view>
+<view class='selection'>
+    <swiper circular indicator-dots="true" autoplay="true" interval="3000" duration="1000" bindchange="bindchange" style="height:{{imgheights[current]}}rpx">
+        <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+            <swiper-item>
+                <image mode="widthFix" src="{{item}}" class="slide-image" class='swiper-img' data-id='{{index}}' bindload="imageLoad" />
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
 
+<!-- <view class='line'></view> -->
+
+<view class='bird'>
+    <view class='bird-box'>
+        <view class='bird-cont' wx:for="{{aggregate}}" wx:for-item="aggregateList" wx:key="">
+            <image src='{{aggregateList.img}}' mode='widthFix' class='bird-img'></image>
+            <view class='bird-txt'>
+                <text>{{aggregateList.book}}</text>
+                <text>{{aggregateList.time}}</text>
+                <text>{{aggregateList.introduce}}</text>
+            </view>
+        </view>
+    </view>
 </view>

@@ -34,7 +34,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 5,
+			"current": 6,
 			"list": [
 				{
 					"id": -1,
@@ -75,6 +75,13 @@
 					"id": -1,
 					"name": "综艺节目",
 					"pathName": "pages/src/bird-variety-show/bird-variety-show",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "飞鸟集",
+					"pathName": "pages/src/bird-products/bird-products",
 					"scene": null
 				}
 			]
