@@ -34,7 +34,7 @@
       <text class='text-all'>资料简介</text>
     </view>
 
-    <view class='list-item' wx:for-items="{{listItem}}"  wx:for-item="item" wx:key="">
+    <view class='list-item' wx:for-items="{{listItem}}" data-id='{{item.id}}'  wx:for-item="item" wx:key="" bindtap='listBtn'>
       <view class='list-item-images'>
         <image src="{{item.image}}" class='list-item-images-img'></image>
         <image src="{{item.image}}" class='avatar'></image>

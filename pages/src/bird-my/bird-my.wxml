@@ -1,0 +1,49 @@
+<view class='bird'>
+    <!-- 头部设置 -->
+    <view class='bird-head'>
+        <view class='bird-cont'>
+            <view class='bird-img'>
+                <image src='../../../images/niao.jpg'></image>
+            </view>
+            <view class='bird-txt'>
+                <text>小鸟之家</text>
+                <text>四斋蒸鹅心</text>
+            </view>
+        </view>
+        <view class='bird-set'>
+            设置
+        </view>
+    </view>
+
+    <view class='line'></view>
+
+    <!-- 列表设置 -->
+    <view class='bird-x'>
+        <view class='bird-x-s' bindtap='fnDataBtn'>
+            <text>小鸟资料</text>
+            <view class='bird-icon'></view>
+        </view>
+        <view class='bird-x-s' bindtap='earlyBtn'>
+            <text>早年经历</text>
+            <view class='bird-icon'></view>
+        </view>
+         <view class='bird-x-s' bindtap='performingBtn'>
+            <text>演艺经历</text>
+            <view class='bird-icon'></view>
+        </view>
+        <view class='bird-x-s' bindtap='majorBtn'>
+            <text>主要作品</text>
+            <view class='bird-icon'></view>
+        </view>
+        <view class='bird-x-s' bindtap='varietyBtn'>
+            <text>综艺节目</text>
+            <view class='bird-icon'></view>
+        </view>
+        <!-- <view class='bird-x-s'>
+            <text>小鸟收藏</text>
+            <view class='bird-icon'></view>
+        </view> -->
+    </view>
+
+
+</view>

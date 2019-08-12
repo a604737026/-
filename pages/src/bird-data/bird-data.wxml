@@ -1,0 +1,20 @@
+<view class='bird'>
+    <view class='bird-cont'>
+        <view class='bird-txt'>
+            <text>斋藤飞鸟</text>
+            <text>斋藤飞鸟（さいとう あすか），1998年8月10日出生于东京都，日本女歌手、模特。</text>
+        </view>
+        <view class='bind-img'>
+            <image src='https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=f22a71bdffdeb48fef64a98c9176514c/79f0f736afc3793105856df5e7c4b74542a91178.jpg'></image>
+        </view>
+    </view>
+    <view class='line'></view>
+
+    <view class='bird-content'>
+        <text>2011年8月，通过选拔成为日本女子偶像团体乃木坂46的一期成员，并于2012年2月发行组合首张单曲《ぐるぐるカーテン》出道。</text>
+        <text>2014年4月，作为鼓手参与成立特别乐队乃木团；2015年2月，成为《CUTiE》杂志首位专属模特，同年7月从该杂志毕业并成为《sweet》杂志的正式模特.</text>
+        <text>2016年，在组合第15张单曲首次被选为中心成员 。</text>
+        <text>2014年4月，作为鼓手参与成立特别乐队乃木团；2015年2月，成为《CUTiE》杂志首位专属模特，同年7月从该杂志毕业并成为《sweet》杂志的正式模特。</text>
+        <text>2016年，在组合第15张单曲首次被选为中心成员。</text>
+    </view>
+</view>

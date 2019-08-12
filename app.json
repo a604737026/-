@@ -1,14 +1,48 @@
 {
     "pages": [
         "pages/index/index",
-        "pages/logs/logs",
-        "pages/log2/log2"
+        "pages/src/bird-products/bird-products",
+        "pages/src/bird-my/bird-my",
+        "pages/src/bird-data/bird-data",
+        "pages/src/bird-early-experience/bird-early-experience",
+        "pages/src/bird-performing-experience/bird-performing-experience",
+        "pages/src/bird-major-works/bird-major-works",
+        "pages/src/bird-variety-show/bird-variety-show",
+        "pages/logs/logs"
+      
     ],
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
         "navigationBarTitleText": "笑猫不笑",
         "navigationBarTextStyle": "black"
+    },
+    
+    "tabBar": {
+        "color": "#999999",
+        "selectedColor": "#d81e06",
+        "backgroundColor": "#FFF",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "./images/index.png",
+                "selectedIconPath": "./images/index-fn.png"
+            },
+            {
+                "pagePath": "pages/src/bird-products/bird-products",
+                "text": "飞鸟集",
+                "iconPath": "./images/fnj.png",
+                "selectedIconPath": "./images/fnj-fn.png"
+            },
+            {
+                "pagePath": "pages/src/bird-my/bird-my",
+                "text": "我的小鸟",
+                "iconPath": "./images/my.png",
+                "selectedIconPath": "./images/my-fn.png"
+            }
+        ]
     },
     "sitemapLocation": "sitemap.json",
     "requiredBackgroundModes": [

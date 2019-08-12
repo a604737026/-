@@ -25,13 +25,59 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 5,
+			"list": [
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/src/bird-my/bird-my",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "小鸟资料",
+					"pathName": "pages/src/bird-data/bird-data",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "早年经历",
+					"pathName": "pages/src/bird-early-experience/bird-early-experience",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "演艺经历",
+					"pathName": "pages/src/bird-performing-experience/bird-performing-experience",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "主要作品",
+					"pathName": "pages/src/bird-major-works/bird-major-works",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "综艺节目",
+					"pathName": "pages/src/bird-variety-show/bird-variety-show",
+					"scene": null
+				}
+			]
 		}
 	}
 }
