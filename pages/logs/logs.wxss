@@ -1,0 +1,32 @@
+/* .log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+} */
+
+#green {
+    height: 200rpx;
+    background: green;
+}
+
+#red {
+    height: 200rpx;
+    background: red;
+}
+
+#yellow {
+    height: 200rpx;
+    background: yellow;
+}
+
+#blue {
+    height:200rpx;
+    background: blue;
+}
+#black{
+    height: 200rpx;
+    background: black;
+}

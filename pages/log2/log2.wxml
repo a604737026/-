@@ -1,0 +1,53 @@
+<view class="edit display-sb">
+    <view>共
+        <text>5</text>件商品</view>
+    <text>编辑</text>
+</view>
+<view class="feng"></view>
+
+<view class="shopboxlist" wx:for="{{shopcart}}">
+    <view class="display-ai cart-shop" data-index="{{index}}" bindtap="allstores">
+        <view class="display-ai {{selection?'iconchbox':'iconchbox2'}}" >
+            <icon type="success" size="17" class="iconch2" color="#C02D3A" />
+            <icon type="success" size="15" class="iconch" color="#fff" />
+        </view>
+        <image src="/pages/images/icon01.png"></image>
+        <text>{{item.shopname}}</text>
+        <i-icon type="enter" size="18" color="#999999" />
+    </view>
+    <view class="display-ai shoplist" wx:for="{{item.goods}}">
+        <view class="display-ai iconchbox" data-id="{{item.id}}">
+            <icon type="success" size="17" class="iconch2" color="#C02D3A" />
+            <icon type="success" size="15" class="iconch" color="#fff" />
+        </view>
+        <view class="display">
+            <view class="shoplist-image">
+                <image src="{{item.images}}"></image>
+            </view>
+            <view class="shoplist-cont">
+                <view>
+                    <view class="shoplist-conttitle">{{item.title}}</view>
+                    <view class="shoplist-contlabel">{{item.option}}：{{item.optiontext}}</view>
+                </view>
+                <view class="shoplist-contprice">
+                    ￥{{item.price}}
+                    <text>￥{{item.oldprice}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+
+
+<view class="dibu"></view>
+<view class="cartnav">
+    <view class="display-ai cartnav-ch  iconchbox2">
+        <icon type="success" size="17" class="iconch2" color="#C02D3A" />
+        <icon type="success" size="15" class="iconch" color="#fff" />
+    </view>
+    <view class="cartnav-hej">
+        合计：
+        <text>0:00</text>
+    </view>
+    <view class="cartnav-jies">结算</view>
+</view>
