@@ -1,5 +1,5 @@
 <view class='selection'>
-    <swiper circular indicator-dots="true" autoplay="true" interval="3000" duration="1000" bindchange="bindchange" style="height:{{imgheights[current]}}rpx">
+    <swiper circular indicator-dots="true"  interval="3000" duration="1000" bindchange="bindchange" style="height:{{imgheights[current]}}rpx">
         <block wx:for="{{imgUrls}}" wx:key="{{index}}">
             <swiper-item>
                 <image mode="widthFix" src="{{item}}" class="slide-image" class='swiper-img' data-id='{{index}}' bindload="imageLoad" />

@@ -8,6 +8,7 @@ Page({
         imgUrls: [
             'https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=ca46a4604b4a20a425133495f13bf347/2934349b033b5bb540badc8c32d3d539b600bc57.jpg',
             'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1565616558887&di=73b29b047d36ac748a8a60d12e2d432c&imgtype=0&src=http%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F7riaCu17ib1ib861fiagVicqMjyGLVLDk0tQ35jVON1GZia8rABLBsbOibBsoY5C87ASvtnSBiamicCJPwVBqTV1F1DsZXg%2F640%3Fwx_fmt%3Djpeg',
+            '../../../images/bird.jpg',
 
         ],
         aggregate: [{
@@ -71,7 +72,7 @@ Page({
             imgheight = e.detail.height,
             //宽高比  
             ratio = imgwidth / imgheight;
-        console.log(imgwidth, imgheight)
+        // console.log(imgwidth, imgheight)
         //计算的高度值  
         var viewHeight = 750 / ratio;
         var imgheight = viewHeight;
@@ -106,7 +107,13 @@ Page({
      * 生命周期函数--监听页面显示
      */
     onShow: function() {
+        wx.showLoading({
+            title: '加载中...',
+        })
 
+        setTimeout(function () {
+            wx.hideLoading()
+        }, 100)
     },
 
     /**

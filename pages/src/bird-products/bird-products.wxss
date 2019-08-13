@@ -53,7 +53,7 @@ page {
 }
 
 .bird-img {
-    width: 250rpx;
+    width: 280rpx;
     height: 100%;
 }
 

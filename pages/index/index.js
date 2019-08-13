@@ -5,9 +5,9 @@ Page({
      */
     data: {
         imgUrls: [
-            'http://imgsrc.baidu.com/forum/w%3D580/sign=17fa18079c2397ddd679980c6980b216/f692ccc4b74543a9f0e4db2c13178a82bb0114d9.jpg',
-            'http://imgsrc.baidu.com/forum/w=580/sign=da16fc1c962f07085f052a08d925b865/2f556a10b912c8fc9e0e189ef4039245d48821c6.jpg',
-            'http://imgsrc.baidu.com/forum/w%3D580/sign=cb75c47201f431adbcd243317b34ac0f/cf099e014a90f6030a4fbda73412b31bb251edda.jpg'
+'http://imgsrc.baidu.com/forum/w=580/sign=da16fc1c962f07085f052a08d925b865/2f556a10b912c8fc9e0e189ef4039245d48821c6.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=17fa18079c2397ddd679980c6980b216/f692ccc4b74543a9f0e4db2c13178a82bb0114d9.jpg', 
+// 'https://i0.hdslb.com/bfs/article/580b561a5a81bea363e7a54ebdbd65d92bbf1554.jpg@1320w_868h.webp',
+'http://imgsrc.baidu.com/forum/w%3D580/sign=cb75c47201f431adbcd243317b34ac0f/cf099e014a90f6030a4fbda73412b31bb251edda.jpg'
         ],
 
         contentItems: [{
@@ -114,6 +114,15 @@ Page({
             })
         }
 
+    },
+    onShow:function(){
+        wx.showLoading({
+            title: '加载中...',
+        })
+
+        setTimeout(function () {
+            wx.hideLoading()
+        }, 100)
     },
 
     onReady: function() {

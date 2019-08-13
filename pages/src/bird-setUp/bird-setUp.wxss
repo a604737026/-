@@ -1,0 +1,16 @@
+page {
+    background-color: #f6f6f6;
+}
+
+.line {
+    height: 1rpx;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+.bird {
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 20rpx 30rpx;
+}

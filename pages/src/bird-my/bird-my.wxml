@@ -10,9 +10,16 @@
                 <text>四斋蒸鹅心</text>
             </view>
         </view>
-        <view class='bird-set'>
+        <view class='bird-set' bindtap='setUpBtn'>
             设置
         </view>
+    </view>
+    <view class='toutiao'>
+        <view class='tou-title'>头条</view>
+        <view class='tou-txt'  animation="{{circulateAnimation}}">
+            <text>{{join.title}}</text>
+        </view>
+       
     </view>
 
     <view class='line'></view>
@@ -27,7 +34,7 @@
             <text>早年经历</text>
             <view class='bird-icon'></view>
         </view>
-         <view class='bird-x-s' bindtap='performingBtn'>
+        <view class='bird-x-s' bindtap='performingBtn'>
             <text>演艺经历</text>
             <view class='bird-icon'></view>
         </view>

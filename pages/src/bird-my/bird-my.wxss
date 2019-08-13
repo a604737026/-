@@ -48,6 +48,7 @@ page{
 .bird-set{
     align-items: center;
     color: #666;
+    font-size: 32rpx;
 }
 
 /* 个人 */
@@ -66,3 +67,35 @@ page{
     align-self: center;
 }
 
+.toutiao{
+    display: flex;
+    border-top: 1px solid #f6f6f6;
+    /* padding: 20rpx; */
+    font-size: 28rpx;
+    color: #666;
+    height: 70rpx;
+    overflow: hidden;
+    align-items: center;
+    box-sizing: border-box;
+}
+.tou-title{
+    padding-right: 20rpx;
+    color: #000;
+    padding-left: 30rpx;
+    font-weight: 900;
+}
+.tou-txt{
+    display: flex;
+    position: relative;
+    top: 30px;
+    /* width: 580rpx; */
+    /* 偏移出文本框的内容隐藏掉 */
+    overflow: hidden;
+    align-items: center;
+    flex: 1;
+}
+.tou-txt text{
+      /* 文字内容只做一行显示 */
+    white-space: nowrap;
+    font-size: 24rpx;
+}
